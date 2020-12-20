@@ -18,3 +18,16 @@ The dataset is obtained from a Governmental website, specifically: Agency for He
 The original dataset contains patients' visit records in 49.7% hospitals in the States from 2010 to 2017
 5 random hospitals were chosen from the United States with over 25,000 cases
 24 variables out of 101 original variables are chosen initially
+
+## Modeling and Data Visulization (See Code)
+
+## Conclusion
+
+Lowering the number of patient readmissions will not only yield lower penalty costs, saving the hospital billions of dollars, it also improves the overall health of the community. High readmission rates ultimately reflect poor quality of care and reducing this is ideal. This win-win situation for patients and community alike is at the forefront of our research. For our analysis, we intended to tackle the root cause for the reasons why patients readmit so that we can provide data-driven solutions to both the hospital and Government in their mutual best interest. After properly accounting for unbalanced and unclean data, robust machine learning models allude to several important findings. 
+
+Of the more interesting findings, we found that the dollar amount charged was found to be the most significant feature in predicting readmission rather than age. We think this is likely due to the fact that more advanced treatments are usually linked to more severe diseases which require greater aftercare and more attention overall. Age was also found to be significant due to the increased immunocompromised nature of elderly patients, where comorbidity and mortality risk is high.
+
+Surprisingly, the third feature contributing most to impurity reduction of classification is the month the patient was discharged, placing higher than the length of stay and the count of unique chronic diagnoses reported on the discharge date. In March, April, May, June, July, November, and December, there were more readmission visits than non-readmission visits. This indicates the rate of readmission is highly based on seasonality. We think this might be because there are more flu cases in the Spring and Winter. Some further investigations can be done in order to help the hospitals prepare better to reduce the readmission situation.
+
+Our recommendations to the hospitals can be expanded to other areas in the United States because patient profiles will be similar. With our ultimate goal of reducing avoidable cost, these models should be utilized to assess risk of readmission. 
+
