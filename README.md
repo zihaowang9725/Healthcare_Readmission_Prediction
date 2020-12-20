@@ -29,5 +29,5 @@ Of the more interesting findings, we found that the dollar amount charged was fo
 
 Surprisingly, the third feature contributing most to impurity reduction of classification is the month the patient was discharged, placing higher than the length of stay and the count of unique chronic diagnoses reported on the discharge date. In March, April, May, June, July, November, and December, there were more readmission visits than non-readmission visits. This indicates the rate of readmission is highly based on seasonality. We think this might be because there are more flu cases in the Spring and Winter. Some further investigations can be done in order to help the hospitals prepare better to reduce the readmission situation.
 
-Our recommendations to the hospitals can be expanded to other areas in the United States because patient profiles will be similar. With our ultimate goal of reducing avoidable cost, these models should be utilized to assess risk of readmission. 
+The recommendations to the hospitals can be expanded to other areas in the United States because patient profiles will be similar. With our ultimate goal of reducing avoidable cost, these models should be utilized to assess risk of readmission. 
 
